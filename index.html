@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>My Google Maps Demo</h3>
+  <div id="map"></div>
+  <script>
+    var chapters = [
+      {
+        "name": "Two Hearts of Jesus and Mary",
+        "city": "Bidderford Pool",
+        "state": "ME"
+      },
+      {
+        "name": "Mother of God",
+        "city": "West Springfield",
+        "state": "MA"
+      },
+      {
+        "name": "St. Rose of Lima",
+        "city": "Swansea",
+        "state": "MA"
+      },
+      {
+        "name": "Our Lady of Divine Providence & St. Thomas Aquinas",
+        "city": "Providence",
+        "state": "RI"
+      },
+      {
+        "name": "Mother of Mercy",
+        "city": "Tiverton",
+        "state": "RI"
+      },
+      {
+        "name": "St. Mary's",
+        "city": "New Haven",
+        "state": "CT"
+      },
+      {
+        "name": "Resurrection",
+        "city": "Casco",
+        "state": "ME"
+      },
+      {
+        "name": "Our Lady of Mercy",
+        "city": "Norfolk",
+        "state": "MA"
+      },
+      {
+        "name": "Hope of Bethany",
+        "city": "Norfolk",
+        "state": "MA"
+      },
+      {
+        "name": "Bl. Margaret of Castello Pro Chapter",
+        "city": "Sabattus",
+        "state": "ME"
+      },
+      {
+        "name": "St. Martin de Porres Affiliation",
+        "city": "Hanover",
+        "state": "NH"
+      },
+      {
+        "name": "Our Lady of Grace",
+        "city": "Cromwell",
+        "state": "CT"
+      },
+      {
+        "name": "Most Holy Rosary",
+        "city": "Middletown",
+        "state": "NY"
+      },
+      {
+        "name": "Our Lady of the Assumption",
+        "city": "New York City",
+        "state": "NY"
+      },
+      {
+        "name": "St. Catherine of Siena",
+        "city": "Staten Island",
+        "state": "NY"
+      },
+      {
+        "name": "Queen of the Rosary",
+        "city": "Rockville Centre",
+        "state": "NY"
+      },
+      {
+        "name": "Our Lady of Hope",
+        "city": "Mastic Beach",
+        "state": "NY"
+      },
+      {
+        "name": "Holy Rosary",
+        "city": "Summit",
+        "state": "NJ"
+      },
+      {
+        "name": "Caldwell College",
+        "city": "Caldwell",
+        "state": "NJ"
+      },
+      {
+        "name": "Sacred Heart",
+        "city": "Linden",
+        "state": "NJ"
+      },
+      {
+        "name": "Rose Hawthorne",
+        "city": "Hawthorne",
+        "state": "NY"
+      },
+      {
+        "name": "St. Louis Bertrand",
+        "city": "Syracuse",
+        "state": "NY"
+      },
+      {
+        "name": "Mary Queen of the Apostles",
+        "city": "Elmira",
+        "state": "NY"
+      },
+      {
+        "name": "Immaculate Heart of Mary",
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      {
+        "name": "Our Lady of the Sacred Heart",
+        "city": "Saratoga Springs",
+        "state": "NY"
+      },
+      {
+        "name": "Our Lady of Victory - Affiliation",
+        "city": "Rochester",
+        "state": "NY"
+      },
+      {
+        "name": "St. Catherine of Siena",
+        "city": "Fishtown",
+        "state": "PA"
+      },
+      {
+        "name": "Holy Rosary",
+        "city": "Mount Ephraim",
+        "state": "NJ"
+      },
+      {
+        "name": "Expectation of the Blessed Mother",
+        "city": "Bethlehem",
+        "state": "PA"
+      },
+      {
+        "name": "St. Lous de Montfort",
+        "city": "Bath",
+        "state": "PA"
+      },
+      {
+        "name": "Our Lady of Prouille",
+        "city": "Willow Grove",
+        "state": "PA"
+      },
+      {
+        "name": "St. Catherine of Siena",
+        "city": "Toms River",
+        "state": "NJ"
+      },
+      {
+        "name": "St. Thomas Aquinas",
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      {
+        "name": "St. Thomas Aquinas",
+        "city": "Honesdale",
+        "state": "PA"
+      },
+      {
+        "name": "Our Lady of Victory",
+        "city": "Cape May",
+        "state": "NJ"
+      },
+      {
+        "name": "Pope St. Pius V - Affiliation",
+        "city": "Hamilton",
+        "state": "NJ"
+      },
+      {
+        "name": "St. Martin de Porres",
+        "city": "Newton",
+        "state": "MA"
+      }];
+
+    var defaulStartLocation = { // new york, ny
+      lat: 40.730610,
+      lng: -73.935242
+    }
+
+    var map;
+
+
+    function mapChapter(chapter) {
+      return new google.maps.Marker({
+        map: map,
+        position: chapter.location
+      });
+    }
+
+    function locateChapters() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: defaulStartLocation
+      });
+      var geocoder = new google.maps.Geocoder();
+      chapters.forEach(function (chapter) {
+        window.setTimeout(function () {
+          geocoder.geocode({ 'address': chapter.city + ", " + chapter.state }, function (results, status) {
+            if (status == 'OK') {
+              chapter.location = results[0].geometry.locateChapters;
+              mapChapter(chapter);
+            } else {
+              console.log('Geocode was not successful for the following reason: ' + status);
+            }
+          });
+        }, 250);
+      });
+    }
+
+
+    function initMap() {
+      locateChapters();
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL4kILOLv990fLuqCFYLoD_-v7PoPyYuE&callback=initMap">
+  </script>
+</body>
+
+</html>
