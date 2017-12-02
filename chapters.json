@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Two Hearts of Jesus and Mary",
+    "city": "Bidderford Pool",
+    "state": "ME",
+    "location": { "lat": 43.4448082, "lng": -70.3414373 }
+  },
+  {
+    "name": "Mother of God",
+    "city": "West Springfield",
+    "state": "MA",
+    "location": { "lat": 42.1070383, "lng": -72.62036749999999 }
+  },
+  {
+    "name": "St. Rose of Lima",
+    "city": "Swansea",
+    "state": "MA",
+    "location": { "lat": 41.748162, "lng": -71.18956170000001 }
+  },
+  {
+    "name": "Our Lady of Divine Providence & St. Thomas Aquinas",
+    "city": "Providence",
+    "state": "RI",
+    "location": { "lat": 41.8239891, "lng": -71.41283429999999 }
+  },
+  {
+    "name": "Mother of Mercy",
+    "city": "Tiverton",
+    "state": "RI",
+    "location": { "lat": 41.6259211, "lng": -71.2134231 }
+  },
+  {
+    "name": "St. Mary's",
+    "city": "New Haven",
+    "state": "CT",
+    "location": { "lat": 41.308274, "lng": -72.92788350000001 }
+  },
+  {
+    "name": "Resurrection",
+    "city": "Casco",
+    "state": "ME",
+    "location": { "lat": 43.969246, "lng": -70.52119449999998 }
+  },
+  {
+    "name": "Our Lady of Mercy",
+    "city": "Norfolk",
+    "state": "MA",
+    "location": { "lat": 42.1195426, "lng": -71.32505630000003 }
+  },
+  {
+    "name": "Hope of Bethany",
+    "city": "Norfolk",
+    "state": "MA",
+    "location": { "lat": 42.1195426, "lng": -71.32505630000003 }
+  },
+  {
+    "name": "Bl. Margaret of Castello Pro Chapter",
+    "city": "Sabattus",
+    "state": "ME",
+    "location": { "lat": 44.1152935, "lng": -70.10312469999997 }
+  },
+  {
+    "name": "St. Martin de Porres Affiliation",
+    "city": "Hanover",
+    "state": "NH",
+    "location": { "lat": 43.7022451, "lng": -72.28955259999998 }
+  },
+  {
+    "name": "Our Lady of Grace",
+    "city": "Cromwell",
+    "state": "CT",
+    "location": { "lat": 41.5950989, "lng": -72.64537050000001 }
+  },
+  {
+    "name": "Most Holy Rosary",
+    "city": "Middletown",
+    "state": "NY",
+    "location": { "lat": 41.4459271, "lng": -74.42293410000002 }
+  },
+  {
+    "name": "Our Lady of the Assumption",
+    "city": "New York City",
+    "state": "NY",
+    "location": { "lat": 40.7127753, "lng": -74.0059728 }
+  },
+  {
+    "name": "St. Catherine of Siena",
+    "city": "Staten Island",
+    "state": "NY",
+    "location": { "lat": 40.5795317, "lng": -74.15020070000003 }
+  },
+  {
+    "name": "Queen of the Rosary",
+    "city": "Rockville Centre",
+    "state": "NY",
+    "location": { "lat": 40.65871380000001, "lng": -73.6412406 }
+  },
+  {
+    "name": "Our Lady of Hope",
+    "city": "Mastic Beach",
+    "state": "NY",
+    "location": { "lat": 40.7667655, "lng": -72.85204759999999 }
+  },
+  {
+    "name": "Holy Rosary",
+    "city": "Summit",
+    "state": "NJ",
+    "location": { "lat": 40.7146376, "lng": -74.36461220000001 }
+  },
+  {
+    "name": "Caldwell College",
+    "city": "Caldwell",
+    "state": "NJ",
+    "location": { "lat": 40.8398218, "lng": -74.27653659999999 }
+  },
+  {
+    "name": "Sacred Heart",
+    "city": "Linden",
+    "state": "NJ",
+    "location": { "lat": 40.6220478, "lng": -74.2445902 }
+  },
+  {
+    "name": "Rose Hawthorne",
+    "city": "Hawthorne",
+    "state": "NY",
+    "location": { "lat": 41.1073183, "lng": -73.79596659999999 }
+  },
+  {
+    "name": "St. Louis Bertrand",
+    "city": "Syracuse",
+    "state": "NY",
+    "location": { "lat": 43.0481221, "lng": -76.14742439999998 }
+  },
+  {
+    "name": "Mary Queen of the Apostles",
+    "city": "Elmira",
+    "state": "NY",
+    "location": { "lat": 42.0897965, "lng": -76.8077338 }
+  },
+  {
+    "name": "Immaculate Heart of Mary",
+    "city": "Buffalo",
+    "state": "NY",
+    "location": { "lat": 42.88644679999999, "lng": -78.8783689 }
+  },
+  {
+    "name": "Our Lady of the Sacred Heart",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "location": { "lat": 43.0831301, "lng": -73.78456510000001 }
+  },
+  {
+    "name": "Our Lady of Victory - Affiliation",
+    "city": "Rochester",
+    "state": "NY",
+    "location": { "lat": 43.16103, "lng": -77.6109219 }
+  },
+  {
+    "name": "St. Catherine of Siena",
+    "city": "Fishtown",
+    "state": "PA",
+    "location": { "lat": 39.9716592, "lng": -75.12804770000002 }
+  },
+  {
+    "name": "Holy Rosary",
+    "city": "Mount Ephraim",
+    "state": "NJ",
+    "location": { "lat": 39.8784465, "lng": -75.0926738 }
+  },
+  {
+    "name": "Expectation of the Blessed Mother",
+    "city": "Bethlehem",
+    "state": "PA",
+    "location": { "lat": 40.6259316, "lng": -75.37045790000002 }
+  },
+  {
+    "name": "St. Lous de Montfort",
+    "city": "Bath",
+    "state": "PA",
+    "location": { "lat": 40.7256524, "lng": -75.39406989999998 }
+  },
+  {
+    "name": "Our Lady of Prouille",
+    "city": "Willow Grove",
+    "state": "PA",
+    "location": { "lat": 40.1439985, "lng": -75.11572860000001 }
+  },
+  {
+    "name": "St. Catherine of Siena",
+    "city": "Toms River",
+    "state": "NJ",
+    "location": { "lat": 39.9537358, "lng": -74.19794580000001 }
+  },
+  {
+    "name": "St. Thomas Aquinas",
+    "city": "Lancaster",
+    "state": "PA",
+    "location": { "lat": 40.0378755, "lng": -76.30551439999999 }
+  },
+  {
+    "name": "St. Thomas Aquinas",
+    "city": "Honesdale",
+    "state": "PA",
+    "location": { "lat": 41.5767552, "lng": -75.2587871 }
+  },
+  {
+    "name": "Our Lady of Victory",
+    "city": "Cape May",
+    "state": "NJ",
+    "location": { "lat": 38.9351125, "lng": -74.9060053 }
+  },
+  {
+    "name": "Pope St. Pius V - Affiliation",
+    "city": "Hamilton",
+    "state": "NJ",
+    "location": { "lat": 40.2115109, "lng": -74.67966509999997 }
+  },
+  {
+    "name": "St. Martin de Porres",
+    "city": "Newton",
+    "state": "MA",
+    "location": { "lat": 42.3370413, "lng": -71.20922139999999 }
+  },
+  {
+    "name": "St. Martin de Porres",
+    "city": "Westminster",
+    "state": "MD",
+    "location": { "lat": 39.5753791, "lng": -76.99581490000003 }
+  },
+  {
+    "name": "Bishop Fenwick",
+    "city": "Silver Springs",
+    "state": "MD",
+    "location": { "lat": 38.99066570000001, "lng": -77.02608800000002 }
+  },
+  {
+    "name": "St. Dominic",
+    "city": "Washington",
+    "state": "DC",
+    "location": { "lat": 38.9071923, "lng": -77.03687070000001 }
+  },
+  {
+    "name": "Our Lady of Fatima/St. Catherine",
+    "city": "Washington",
+    "state": "DC",
+    "location": { "lat": 38.9071923, "lng": -77.03687070000001 }
+  },
+  {
+    "name": "Immaculate Conception",
+    "city": "Washington",
+    "state": "DC",
+    "location": { "lat": 38.9071923, "lng": -77.03687070000001 }
+  },
+  {
+    "name": "St. Catherine of Siena",
+    "city": "Great Falls",
+    "state": "VA",
+    "location": { "lat": 38.9981652, "lng": -77.2883157 }
+  },
+  {
+    "name": "Our Lady of Guadalupe",
+    "city": "Front Royal",
+    "state": "VA",
+    "location": { "lat": 38.9181671, "lng": -78.1944446 }
+  },
+  {
+    "name": "St. Pius V",
+    "city": "Catonsville",
+    "state": "MD",
+    "location": { "lat": 39.2720509, "lng": -76.73191609999998 }
+  },
+  {
+    "name": "Mary Seat of Wisdom",
+    "city": "West River",
+    "state": "MD",
+    "location": { "lat": 38.8512688, "lng": -76.59629359999997 }
+  },
+  {
+    "name": "Fra Angelico",
+    "city": "Washington",
+    "state": "DC",
+    "location": { "lat": 38.9071923, "lng": -77.03687070000001 }
+  },
+  {
+    "name": "St. Thomas Aquinas",
+    "city": "Charlottesville",
+    "state": "VA",
+    "location": { "lat": 38.0293059, "lng": -78.47667810000002 }
+  },
+  {
+    "name": "Sacred Heart",
+    "city": "Manassas",
+    "state": "VA",
+    "location": { "lat": 38.7509488, "lng": -77.47526670000002 }
+  },
+  {
+    "name": "Our Lady Queen of Peace",
+    "city": "New Castle",
+    "state": "DE",
+    "location": { "lat": 39.6620397, "lng": -75.56681659999998 }
+  },
+  {
+    "name": "Blessed Pier Giogrio Frassati",
+    "city": "Roanoke",
+    "state": "VA",
+    "location": { "lat": 37.2709704, "lng": -79.9414266 }
+  },
+  {
+    "name": "Joy of Justice",
+    "city": "Baltimore",
+    "state": "MD",
+    "location": { "lat": 39.2903848, "lng": -76.61218930000001 }
+  },
+  {
+    "name": "St. Dominic",
+    "city": "Youngstown",
+    "state": "OH",
+    "location": { "lat": 41.0997803, "lng": -80.64951940000003 }
+  },
+  {
+    "name": "St. Thomas Aquinas",
+    "city": "Zanesville",
+    "state": "OH",
+    "location": { "lat": 39.9403453, "lng": -82.01319239999998 }
+  },
+  {
+    "name": "St. Catherine of Siena",
+    "city": "Columbus",
+    "state": "OH",
+    "location": { "lat": 39.9611755, "lng": -82.99879420000002 }
+  },
+  {
+    "name": "Our Lady of Peace",
+    "city": "Cincinnati",
+    "state": "OH",
+    "location": { "lat": 39.1031182, "lng": -84.51201960000003 }
+  },
+  {
+    "name": "St. Louis Bertrand",
+    "city": "Louisville",
+    "state": "KY",
+    "location": { "lat": 38.2526647, "lng": -85.75845570000001 }
+  },
+  {
+    "name": "Our Lady Queen of Peace",
+    "city": "Louisville",
+    "state": "KY",
+    "location": { "lat": 38.2526647, "lng": -85.75845570000001 }
+  },
+  {
+    "name": "Bl. Pier Giorgio Frassati",
+    "city": "Independence",
+    "state": "KY",
+    "location": { "lat": 38.94311829999999, "lng": -84.54410899999999 }
+  },
+  {
+    "name": "Bishop Edward Dominic Fenwick",
+    "city": "Cincinnati",
+    "state": "OH",
+    "location": { "lat": 39.1031182, "lng": -84.51201960000003 }
+  },
+  {
+    "name": "St. Martin de Porres",
+    "city": "New Hope",
+    "state": "KY",
+    "location": { "lat": 37.6319355, "lng": -85.50759049999999 }
+  },
+  {
+    "name": "St. Dominic",
+    "city": "Springfield",
+    "state": "KY",
+    "location": { "lat": 37.6853413, "lng": -85.22218190000001 }
+  },
+  {
+    "name": "Blessed Jordan of Saxony",
+    "city": "Steubenville",
+    "state": "OH",
+    "location": { "lat": 40.3697905, "lng": -80.6339638 }
+  },
+  {
+    "name": "St. Catherine fo Sienna - Affiliation",
+    "city": "Charleston",
+    "state": "WV",
+    "location": { "lat": 38.3498195, "lng": -81.6326234 }
+  }
+]
